@@ -1,0 +1,115 @@
+/* Variables */
+:root{
+	--header-blog-color: rgb(0, 172, 230);
+	--header-animation-color: rgb(193, 30, 30) /* rgb(255, 126, 0) */;
+	
+	--font-text: "Franklin Gothic Book", "Franklin Gothic Medium", sans-serif;
+	--font-logo: BebasNeue;
+	--font-title: CaviarDreams;
+	--font-sub-header: "Franklin Gothic Medium", Verdana, sans-serif;
+	
+	--huge-text: 2.0em;
+	--bigger-text: 1.6em;
+	--big-text: 1.2em;
+	--normal-text: 1.0em;
+	--small-text: 0.8em;
+	
+	--white: rgb(255, 255, 255);
+	--black: rgb(0, 0, 0);
+	--darker-gray: rgb(50, 50, 50);
+	--dark-gray: rgb(100, 100, 100);
+	--gray: rgb(150, 150, 150);
+	--light-gray: rgb(200, 200, 200);
+	--lighter-gray: rgb(245, 245, 245);
+	
+	--page-width: 900px;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+/* html{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+} */
+body{
+	background-image: url(../images/BG.jpg);
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+	background-position: center 60px;
+}
+
+h1{
+	font-family: var(--font-logo);
+	font-size: var(--huge-text);
+}
+h1:first-letter{
+	font-size: 1.5em;
+}
+h2{
+	font-family: var(--font-logo);
+	font-size: var(--bigger-text);
+}
+aside h2{
+	font-size: var(--normal-text);
+	font-family: var(--font-sub-header);
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+aside p, aside li{
+	font-size: var(--small-text);
+}
+h3{
+	font-size: var(--big-text);
+	font-family: var(--font-sub-header);
+	border-bottom: 1px solid var(--gray);
+}
+a:link{
+	color: var(--gray);
+	font-style: italic;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: var(--header-blog-color);
+}
+p, li, th, td, dd{
+	font-family: var(--font-text);
+	font-size: var(--normal-text);
+}
+p{
+	line-height: 1.5;
+}
+dt{
+	font-size: var(--big-text);
+	font-family: var(--font-sub-header);
+	margin: 5px 0;
+}
+dd{
+	margin-left: 2.0em;
+}
+ul{
+	list-style-type: square;
+}
+hr{
+	border: 1px dashed var(--gray);
+	width: 80%;
+	margin: auto;
+}
+th{
+	background-color: var(--darker-gray);
+	color: var(--light-gray);
+	text-align: left;
+}
+table{
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+@media only screen and (min-width: 1923px){
+	body{
+		background-size: contain;
+	}
+}

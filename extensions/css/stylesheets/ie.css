@@ -1,0 +1,149 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+body{
+	max-width: 900px;
+	margin: auto;
+	background-position: top center;
+}
+h1{
+	font-family: BebasNeue;
+	font-size: 2.0em;
+}
+h2{
+	font-family: BebasNeue;
+	font-size: 1.6em;
+}
+aside h2{
+	font-size: 1.2em;
+}
+h3{
+	font-size: 1.2em;
+	font-family: "Franklin Gothic Medium", Verdana, sans-serif;
+	border-bottom: 1px solid rgb(150, 150, 150);
+}
+a:link{
+	color: rgb(150, 150, 150);
+}
+a:visited{
+	color: rgb(0, 172, 230);
+}
+p, li{
+	font-family: "Franklin Gothic Book", "Franklin Gothic Medium", sans-serif;
+	font-size: 1.0em;
+}
+hr{
+	border: 2px solid rgb(150, 150, 150);
+}
+header{
+	height:60px;
+	font-family: BebasNeue;
+}
+footer{
+	font-family: "Franklin Gothic Book", "Franklin Gothic Medium", sans-serif;
+	font-size: 0.8em;
+}
+nav{
+	width:50%;
+	height:100%;
+	position:fixed;
+	left:-50%;
+	top:0;
+	z-index:2;
+	background-color: rgb(50, 50, 50);
+	overflow: hidden;
+	transition: 0.5s;
+	font-family: BebasNeue;
+	padding-top: 28px;
+	padding-left: 10px;
+	display: block;
+	width: 25%;
+}
+main{
+	width: 600px;
+}
+aside{
+	border-left: 2px dashed rgb(150, 150, 150);
+	width: 300px;
+	float: right;
+}
+#page-title-header{
+	background-color: rgb(0, 172, 230);
+	color: rgb(255, 255, 255);
+}
+#close-icon{
+	color: rgb(245, 245, 245);
+}
+.menu-button:link{
+	font-family: BebasNeue;
+	color: rgb(245, 245, 245);
+	font-size: 2.0em;
+}
+.menu-button:visited{
+	color: rgb(245, 245, 245);
+}
+.menu-button:hover{
+	background-color: rgb(200, 200, 200);
+	color: rgb(50, 50, 50);
+}
+.center-flex{
+	max-width: 900px;
+}
+.box{
+	border: 1px solid rgb(100, 100, 100);
+}
+.dark-gray-container{
+	background-color: rgb(100, 100, 100);
+	color: rgb(255, 255, 255);
+}
+.light-gray-container{
+	background-color: rgb(200, 200, 200);
+	color: rgb(100, 100, 100);
+}
+.lighter-gray-container{
+	background-color: rgb(245, 245, 245);
+	color: rgb(50, 50, 50);
+}
+.black-container{
+	background-color: rgb(0, 0, 0);
+	color: rgb(245, 245, 245);
+}
+.blue-container{
+	background-color: rgb(0, 172, 230);
+	color: rgb(245, 245, 245);
+}
+.red-container{
+	background-color: rgb(193, 30, 30);
+	color: rgb(245, 245, 245);
+}
+.text-header{
+	color: rgb(245, 245, 245);
+	background-color: rgb(255, 255, 255);
+}
+.text-header *{
+	background-color: rgb(0, 172, 230);
+}
+.text-article{
+	text-indent: 2.0em;
+}
+.date-article{
+	font-size: 0.8em;
+}
+.hide-desktop, .hide-mobile{
+	display: block;
+}
+.ratio-opacity{
+	color: rgb(245, 245, 245);
+}
+.center-flex{
+	display: block;
+}
+#menu-mobile, #logo{
+	float: left;
+}
+#close-icon{
+	display: block;
+}
+.clear{
+	clear: left;
+}
